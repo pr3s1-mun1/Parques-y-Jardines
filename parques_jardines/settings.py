@@ -17,7 +17,7 @@ SECRET_KEY = '_61-pJgQMEV6rPL7JI_O758wTIh3SqCjNwTMGrr1fSvfBLI9fV8xjqkOGO59suQyel
 DEBUG = True
 BDD_PRUEBA = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '10.236.62.93', 'reportespyj.juarez.gob.mx', 'reportespyj.gobjuarez.mpio']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '10.236.62.93', 'reportespyj.juarez.gob.mx', 'reportespyj.gobjuarez.mpio', '10.236.62.44']
 
 CSRF_TRUSTED_ORIGINS = ['https://reportespyj.juarez.gob.mx', 'https://reportespyj.gobjuarez.mpio']
 
@@ -90,7 +90,7 @@ else:
             'PORT': '5433',
         }
     }
-    
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
@@ -135,4 +135,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Configuraciones de redireccionamiento
 LOGIN_URL = '/'
- 
+

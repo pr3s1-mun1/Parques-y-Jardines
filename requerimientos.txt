@@ -1,5 +1,5 @@
 asgiref==3.8.1
-#backports.zoneinfo==0.2.1 # Solo para el servidor (Linux), da error en Windows Python 3.9+
+#backports.zoneinfo==0.2.1 # Solo para el servidor (Linux: Python 3.8 para abajo), da error en Windows (Linux: Python 3.9+)
 django==4.2.24
 et-xmlfile==2.0.0
 gunicorn==23.0.0
